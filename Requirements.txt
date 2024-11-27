@@ -1,0 +1,8 @@
+sklearn
+pyvis
+scipy
+torch
+gudhi
+streamlit
+pandas
+numpy
