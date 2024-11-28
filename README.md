@@ -34,7 +34,7 @@ pip install streamlit pandas numpy scipy scikit-learn pyvis
 ### **1. Run the Application**
 Start the Streamlit application with the following command:
 ```bash
-streamlit run app.py
+streamlit run GenElderCare.py
 ```
 
 ### **2. Upload Datasets**
@@ -60,7 +60,7 @@ Upload your datasets in CSV format:
 
 ```plaintext
 .
-├── app.py               # Main application script
+├── GenElderCare.py               # Main application script
 ├── requirements.txt     # List of dependencies
 ├── disease_network.html # Temporary file for disease graph visualization
 ```
