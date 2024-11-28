@@ -116,11 +116,3 @@ This project enables:
 - Incorporate explainable AI (XAI) to provide clinical interpretability.
 
 ---
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-For questions or contributions, feel free to open an issue or submit a pull request on this GitHub repository!
