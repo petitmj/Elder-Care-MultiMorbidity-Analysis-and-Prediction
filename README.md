@@ -60,9 +60,15 @@ Upload your datasets in CSV format:
 
 ```plaintext
 .
-├── GenElderCare.py               # Main application script
+├── GenElderCare.py      # Main application script
 ├── requirements.txt     # List of dependencies
 ├── disease_network.html # Temporary file for disease graph visualization
+├── data                 # synthetic data to test the model with
+  ├── ehr_data.csv
+  ├── multiomics_data.csv
+  ├── sdo_data.csv
+  ├── wearable_data.csv
+
 ```
 
 ---
