@@ -95,6 +95,15 @@ if dataframes:
         # Fill missing values with 0
         merged_data.fillna(0, inplace=True)
 
+        # Disease-specific data extraction
+        st.header("Extract Data for a Specific Disease")
+        selected_disease = st.selectbox(
+            "Select a Disease to Extract Data", options=chronic_diseases_in_data
+        )
+        disease_specific_data = merged_data[merged_data[selected_disease] > 0]
+        st.write(f"#### Data for {selected_disease.title()}")
+        st.dataframe(disease_specific_data)
+
         # Create Co-occurrence Matrix for Disease-Disease Interaction
         st.header("Disease-Disease Interaction Network")
         st.write("Visualizing the co-occurrence of chronic diseases.")
